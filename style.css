@@ -1,0 +1,145 @@
+body {
+  background: #33363d;
+}
+.document {
+  background-image: url(images/tazuu.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  border-radius: 8px;
+}
+.free {
+  border-radius: 50%;
+}
+
+input {
+  box-sizing: border-box;
+  -moz-box-align: baseline;
+  box-shadow: 20px;
+  width: 35%;
+  margin: 10px;
+  padding: 5px;
+  background-position: 200px;
+}
+.ze {
+  width: 73%;
+  height: 40%;
+}
+.dog {
+  border-right: #292929 solid 10px;
+}
+.dawg {
+  margin: 50px;
+  border-right: #292929 solid 10px;
+}
+.udl {
+  float: right;
+  border-radius: 15%;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+  text-align: center;
+}
+li {
+  display: inline-block;
+  margin-right: 0px;
+  font-size: 35px;
+  color: #b7410e;
+}
+a {
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 2px;
+}
+a:hover {
+  background-color: #cc7722;
+}
+nav {
+  background-color: #292929;
+  text-align: center;
+  padding: 10px;
+  font: size 50px;
+}
+nav a {
+  text-decoration: none;
+  color: antiquewhite;
+
+  padding: 10px;
+}
+nav a:hover {
+  background-color: black;
+  color: blanchedalmond;
+}
+.a {
+
+  text-align: center;
+  color: #b7410e;
+  font-size: 40px;
+  margin: 20%;
+}
+button {
+  height: 70px;
+  width: 140px;
+  font-size: 25px;
+  border-radius: 10px;
+  box-shadow: 50%;
+  color: #b7410e;
+  border: none;
+  text-transform: uppercase;
+}
+.c {
+  color: #cc7722;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 15%;
+  margin-left: 40%;
+}
+.wrapper {
+  margin-left: 200px;
+  text-align: center;
+  box-sizing: border-box;
+  size: large;
+  margin-top: 17%;
+  border: solid#292929 10px;
+  width: 70%;
+  background-color: #cc7722;
+}
+.jpg {
+  float: left;
+}
+p {
+  margin: 75px;
+  font-size: 25px;
+  text-align: center;
+}
+section {
+  display: flex;
+  border: #292929 solid 15px;
+  height: 430px;
+}
+.card p {
+  color: #555;
+}
+.card {
+  background-color: white;
+  width: 30%;
+  text-align: center;
+  padding: 50px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 8px black;
+  transition: transform 0.3s ease-in-out;
+  text-align: justify;
+
+}
+card:hover {
+  transform: scale(1.05);
+  background-color: bisque;
+}
+main {
+  display: flex;
+  justify-content: space-around;
+}

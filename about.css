@@ -1,0 +1,27 @@
+body {
+  background: #33363d;
+}
+img {
+  border-radius: 50%;
+}
+ul {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+  text-align: center;
+}
+li {
+  display: inline-block;
+  margin-right: 0px;
+  font-size: 35px;
+  color: #b7410e;
+}
+a {
+  text-decoration: none;
+  padding: 5px;
+  border: 1px;
+  border-radius: 2px;
+}
+a:hover {
+  background-color: #cc7722;
+}
